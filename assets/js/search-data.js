@@ -391,14 +391,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/yuan-pu_alt/books/the_godfather/";
-            },},{id: "news-it-was-great-to-present-my-co-first-paper-counting-clues-a-lightweight-probabilistic-baseline-can-match-an-llm-at-ml4h-︎",
-          title: 'It was great to present my co-first paper Counting Clues: A Lightweight Probabilistic...',
-          description: "",
-          section: "News",},{id: "news-i-had-the-pleasure-of-presenting-my-co-first-author-paper-human-algorithmic-interaction-using-a-large-language-model-augmented-ai-clinical-decision-support-system-at-chi-2024-in-beautiful-hawaii",
+            },},{id: "news-i-had-the-pleasure-of-presenting-my-co-first-author-paper-human-algorithmic-interaction-using-a-large-language-model-augmented-ai-clinical-decision-support-system-at-chi-2024-in-beautiful-hawaii",
           title: 'I had the pleasure of presenting my co-first author paper Human-Algorithmic Interaction Using...',
           description: "",
           section: "News",},{id: "news-my-co-first-author-paper-trajectory-flow-matching-with-applications-to-clinical-time-series-modeling-was-accepted-as-a-spotlight-at-neurips-2024-see-you-in-vancouver",
           title: 'My co-first author paper Trajectory Flow Matching with Applications to Clinical Time Series...',
+          description: "",
+          section: "News",},{id: "news-it-was-great-to-present-my-co-first-paper-counting-clues-a-lightweight-probabilistic-baseline-can-match-an-llm-at-ml4h-︎",
+          title: 'It was great to present my co-first paper Counting Clues: A Lightweight Probabilistic...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
