@@ -7,14 +7,23 @@
   "interests": [
     {
       "name": "AI/ML for health",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "LLMs",
-        "Human-AI Interactions and Collaborations",
-        "Medical Question and Answering",
-        "Clinical Time Series",
-        "Multimodal"
-      ]
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Large Language Models",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Human-AI Interactions and Collaborations",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Clinical Time Series",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Multimodal",
+      "icon": "fa-solid fa-tag"
     }
   ],
   "education": [
