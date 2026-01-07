@@ -391,16 +391,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/yuan-pu_alt/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-ml4h2025",
+          title: 'Ml4h2025',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/yuan-pu_alt/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/yuan-pu_alt/news/ml4h2025/";
+            },},{id: "news-i-had-the-pleasure-of-presenting-my-co-first-author-paper-human-algorithmic-interaction-using-a-large-language-model-augmented-ai-clinical-decision-support-system-at-chi-2024-in-beautiful-hawaii",
+          title: 'I had the pleasure of presenting my co-first author paper Human-Algorithmic Interaction Using...',
+          description: "",
+          section: "News",},{id: "news-my-co-first-author-paper-trajectory-flow-matching-with-applications-to-clinical-time-series-modeling-was-accepted-as-a-spotlight-at-neurips-2024-see-you-in-vancouver",
+          title: 'My co-first author paper Trajectory Flow Matching with Applications to Clinical Time Series...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
