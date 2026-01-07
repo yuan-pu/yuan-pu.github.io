@@ -450,7 +450,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/yuan-pu_alt/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("https://drive.google.com/file/d/1LYxEWqDJSBv_7hro57LA0zOAOZ9xIt0I/preview", "_blank");
         },
       },{
         id: 'social-email',
