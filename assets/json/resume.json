@@ -7,23 +7,19 @@
   "interests": [
     {
       "name": "AI/ML for health",
-      "icon": "fa-solid fa-tag"
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Clinical Time Series",
+        "Multimodal"
+      ]
     },
     {
       "name": "Large Language Models",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Human-AI Interactions and Collaborations",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Clinical Time Series",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Multimodal",
-      "icon": "fa-solid fa-tag"
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Human-AI Interactions and Collaborations",
+        "Pragmatic alignment"
+      ]
     }
   ],
   "education": [
