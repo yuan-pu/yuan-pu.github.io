@@ -10,8 +10,8 @@
   --global-code-bg-color: #f2e9e4ff;
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-theme-color: #b9896f;
+  --global-hover-color: #b9896f;
   --global-hover-text-color: #{$white-color};
   --global-link-color: #b9896fff;
   --global-footer-bg-color: #{$grey-color-dark};
@@ -20,13 +20,8 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
-  );
+  --global-highlight-color: #b9896f;
+  --global-back-to-top-bg-color: rgba(185, 137, 111, 0.4);
   --global-back-to-top-text-color: #{$white-color};
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
@@ -83,8 +78,8 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-theme-color: #5d98cc;
+  --global-hover-color: #5d98cc;
   --global-hover-text-color: #{$white-color};
   --global-link-color: #5d98cc;
   --global-footer-bg-color: #{$grey-color-light};
@@ -93,12 +88,8 @@ html[data-theme="dark"] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
-  );
+  --global-highlight-color: #5d98cc;
+  --global-back-to-top-bg-color: rgba(93, 152, 204, 0.4);
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};
