@@ -1,6 +1,21 @@
 ---
 ---
 
+@inproceedings{10.5555/3737916.3741320,
+author = {Zhang, Xi and Pu, Yuan and Kawamura, Yuki and Loza, Andrew and Bengio, Yoshua and Shung, Dennis L. and Tong, Alexander},
+title = {Trajectory flow matching with applications to clinical time series modeling},
+year = {2024},
+isbn = {9798331314385},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {Modeling stochastic and irregularly sampled time series is a challenging problem found in a wide range of applications, especially in medicine. Neural stochastic differential equations (Neural SDEs) are an attractive modeling technique for this problem, which parameterize the drift and diffusion terms of an SDE with neural networks. However, current algorithms for training Neural SDEs require backpropagation through the SDE dynamics, greatly limiting their scalability and stability. To address this, we propose Trajectory Flow Matching (TFM), which trains a Neural SDE in a simulation-free manner, bypassing backpropagation through the dynamics. TFM leverages the flow matching technique from generative modeling to model time series. In this work we first establish necessary conditions for TFM to learn time series data. Next, we present a reparameterization trick which improves training stability. Finally, we adapt TFM to the clinical time series setting, demonstrating improved performance on four clinical time series datasets both in terms of absolute performance and uncertainty prediction, a crucial parameter in this setting.},
+booktitle = {Proceedings of the 38th International Conference on Neural Information Processing Systems},
+articleno = {3404},
+numpages = {27},
+location = {Vancouver, BC, Canada},
+series = {NIPS '24}
+}
+
 @inproceedings{10.1145/3613904.3642024,
 author = {Rajashekar, Niroop Channa and Shin, Yeo Eun and Pu, Yuan and Chung, Sunny and You, Kisung and Giuffre, Mauro and Chan, Colleen E and Saarinen, Theo and Hsiao, Allen and Sekhon, Jasjeet and Wong, Ambrose H and Evans, Leigh V and Kizilcec, Rene F. and Laine, Loren and Mccall, Terika and Shung, Dennis},
 title = {Human-Algorithmic Interaction Using a Large Language Model-Augmented Artificial Intelligence Clinical Decision Support System},
@@ -19,19 +34,6 @@ location = {Honolulu, HI, USA},
 series = {CHI '24}
 }
 
-@inproceedings{NEURIPS2024_c1e67cde,
- author = {Zhang, Xi and Pu, Yuan and Kawamura, Yuki and Loza, Andrew and Bengio, Yoshua and Shung, Dennis L. and Tong, Alexander},
- booktitle = {Advances in Neural Information Processing Systems},
- doi = {10.52202/079017-3404},
- editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
- pages = {107198--107224},
- publisher = {Curran Associates, Inc.},
- title = {Trajectory Flow Matching with Applications to Clinical Time Series Modelling},
- url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/c1e67cde895c3c91edb43569ad0df260-Paper-Conference.pdf},
- volume = {37},
- year = {2024}
-}
-
 @misc{chan2023assessingusabilitygutgptsimulation,
       title={Assessing the Usability of GutGPT: A Simulation Study of an AI Clinical Decision Support System for Gastrointestinal Bleeding Risk}, 
       author={Colleen Chan and Kisung You and Sunny Chung and Mauro Giuffrè and Theo Saarinen and Niroop Rajashekar and Yuan Pu and Yeo Eun Shin and Loren Laine and Ambrose Wong and René Kizilcec and Jasjeet Sekhon and Dennis Shung},
@@ -40,18 +42,31 @@ series = {CHI '24}
       archivePrefix={arXiv},
       primaryClass={cs.HC},
       url={https://arxiv.org/abs/2312.10072}, 
+      note={ML4H2023 (Findings)}
 }
 
-@article{chung2025usability,
-  title={Usability and adoption in a randomized trial of GutGPT a GenAI tool for gastrointestinal bleeding},
-  author={Chung, Sunny and Giuffr{\`e}, Mauro and Rajashekar, Niroop and Pu, Yuan and Shin, Yeo Eun and Kresevic, Simone and Chan, Colleen and Nakamura-Sakai, Shinpei and You, Kisung and Saarinen, Theo and others},
-  journal={npj Digital Medicine},
-  volume={8},
-  number={1},
-  pages={527},
-  year={2025},
-  publisher={Nature Publishing Group UK London},
-  doi={https://doi.org/10.1038/s41746-025-01896-5}
+@article {Pu2025.12.29.693789,
+	author = {Pu, Yuan and Guang, August and Qi, Xinran and Bahudodda, Saadhya and Stermer, Angela R. and Spade, Daniel J.},
+	title = {Ethylene Glycol Monomethyl Ether Altered Rat Sperm Small RNAs with Critical Developmental Roles},
+	elocation-id = {2025.12.29.693789},
+	year = {2025},
+	doi = {10.64898/2025.12.29.693789},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Ethylene glycol monomethyl ether (EGME) is a testicular germ cell toxicant that selectively targets spermatocytes. In rats, male-only EGME exposure reduces mating success and can lead to an increase in resorbed fetuses. In a previous study, five-day exposure to 50, 60, or 75 mg/kg/d EGME in male rats led to a decrease in sperm motility and increase in retained spermatid heads with a LOAEL of 75 mg/kg/d. At 60 mg/kg/d, EGME exposure altered the proportion of sperm small RNA reads mapped to different small RNA categories and the distribution of read lengths. Because there is evidence that small non-coding RNAs (sncRNAs) in sperm regulate embryonic development, we analyzed sperm sncRNA data from EGME-treated male rats to identify differential expression at the individual RNA level. EGME treatment resulted in dose-dependent increases in the expression levels of microRNAs (miRNAs), piRNAs, and tRNA-derived small RNAs (tsRNAs). We identified 12 miRNAs that were differentially expressed at all EGME doses, with a monotonic, dose-dependent increase. High-confidence targets of these 12 miRNAs are known to be expressed in pre-implantation embryos and statistically enriched for Gene Ontology (GO) biological processes related to early development, such as cell fate commitment and regulation of developmental growth. These results demonstrated that the EGME-induced changes in sperm sncRNA levels were reproducible, dose-dependent, and provided a putative mechanism of paternal EGME effects on embryonic development, which will be investigated in future studies.Competing Interest StatementThe authors have declared no competing interest.National Institute of General Medical Sciences, https://ror.org/04q48ey07, P20 GM109035, P20 GM156712Brown University, https://ror.org/05gq02987},
+	URL = {https://www.biorxiv.org/content/early/2025/12/29/2025.12.29.693789},
+	eprint = {https://www.biorxiv.org/content/early/2025/12/29/2025.12.29.693789.full.pdf},
+	journal = {bioRxiv}
+}
+
+@misc{jia2025countingclueslightweightprobabilistic,
+      title={Counting Clues: A Lightweight Probabilistic Baseline Can Match an LLM}, 
+      author={Furong Jia and Yuan Pu and Finn Guo and Monica Agrawal},
+      year={2025},
+      eprint={2512.12868},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2512.12868},
+      note={ML4H2025 (Findings)} 
 }
 
 @article{10.1371/journal.pcbi.1012272,
@@ -70,25 +85,26 @@ series = {CHI '24}
 
 }
 
-@misc{jia2025countingclueslightweightprobabilistic,
-      title={Counting Clues: A Lightweight Probabilistic Baseline Can Match an LLM}, 
-      author={Furong Jia and Yuan Pu and Finn Guo and Monica Agrawal},
-      year={2025},
-      eprint={2512.12868},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2512.12868}, 
+@article{chung2025usability,
+  title={Usability and adoption in a randomized trial of GutGPT a GenAI tool for gastrointestinal bleeding},
+  author={Chung, Sunny and Giuffr{\`e}, Mauro and Rajashekar, Niroop and Pu, Yuan and Shin, Yeo Eun and Kresevic, Simone and Chan, Colleen and Nakamura-Sakai, Shinpei and You, Kisung and Saarinen, Theo and others},
+  journal={npj Digital Medicine},
+  volume={8},
+  number={1},
+  pages={527},
+  year={2025},
+  publisher={Nature Publishing Group UK London},
+  doi={https://doi.org/10.1038/s41746-025-01896-5}
 }
 
-@article {Pu2025.12.29.693789,
-	author = {Pu, Yuan and Guang, August and Qi, Xinran and Bahudodda, Saadhya and Stermer, Angela R. and Spade, Daniel J.},
-	title = {Ethylene Glycol Monomethyl Ether Altered Rat Sperm Small RNAs with Critical Developmental Roles},
-	elocation-id = {2025.12.29.693789},
-	year = {2025},
-	doi = {10.64898/2025.12.29.693789},
-	publisher = {Cold Spring Harbor Laboratory},
-	abstract = {Ethylene glycol monomethyl ether (EGME) is a testicular germ cell toxicant that selectively targets spermatocytes. In rats, male-only EGME exposure reduces mating success and can lead to an increase in resorbed fetuses. In a previous study, five-day exposure to 50, 60, or 75 mg/kg/d EGME in male rats led to a decrease in sperm motility and increase in retained spermatid heads with a LOAEL of 75 mg/kg/d. At 60 mg/kg/d, EGME exposure altered the proportion of sperm small RNA reads mapped to different small RNA categories and the distribution of read lengths. Because there is evidence that small non-coding RNAs (sncRNAs) in sperm regulate embryonic development, we analyzed sperm sncRNA data from EGME-treated male rats to identify differential expression at the individual RNA level. EGME treatment resulted in dose-dependent increases in the expression levels of microRNAs (miRNAs), piRNAs, and tRNA-derived small RNAs (tsRNAs). We identified 12 miRNAs that were differentially expressed at all EGME doses, with a monotonic, dose-dependent increase. High-confidence targets of these 12 miRNAs are known to be expressed in pre-implantation embryos and statistically enriched for Gene Ontology (GO) biological processes related to early development, such as cell fate commitment and regulation of developmental growth. These results demonstrated that the EGME-induced changes in sperm sncRNA levels were reproducible, dose-dependent, and provided a putative mechanism of paternal EGME effects on embryonic development, which will be investigated in future studies.Competing Interest StatementThe authors have declared no competing interest.National Institute of General Medical Sciences, https://ror.org/04q48ey07, P20 GM109035, P20 GM156712Brown University, https://ror.org/05gq02987},
-	URL = {https://www.biorxiv.org/content/early/2025/12/29/2025.12.29.693789},
-	eprint = {https://www.biorxiv.org/content/early/2025/12/29/2025.12.29.693789.full.pdf},
-	journal = {bioRxiv}
+@article{DBLP:journals/corr/abs-2502-06693,
+  publtype={informal},
+  author={Amin Adibi and Xu Cao and Zongliang Ji and Jivat Neet Kaur and Winston Chen and Elizabeth Healey and Brighton Nuwagira and Wenqian Ye and Geoffrey Woollard and Maxwell A. Xu and Hejie Cui and Johnny Xi and Trenton Chang and Vasiliki Bikia and Nicole Zhang and Ayush Noori and Yuan Xia and Md. Belal Hossain and Hanna A. Frank and Alina Peluso and Yuan Pu and Shannon Zejiang Shen and John Wu and Adibvafa Fallahpour and Sazan Mahbub and Ross Duncan and Yuwei Zhang and Yurui Cao and Zuheng Xu and Michael Craig and Rahul G. Krishnan and Rahmatollah Beheshti and James M. Rehg and Mohammad Ehsanul Karim and Megan Coffee and Leo Anthony Celi and Jason Alan Fries and Mohsen Sadatsafavi and Dennis L. Shung and Shannon K. McWeeney and Jessica Dafflon and Sarah Jabbour},
+  title={Recent Advances, Applications and Open Challenges in Machine Learning for Health: Reflections from Research Roundtables at ML4H 2024 Symposium},
+  year={2025},
+  month={February},
+  cdate={1738368000000},
+  journal={CoRR},
+  volume={abs/2502.06693},
+  url={https://doi.org/10.48550/arXiv.2502.06693}
 }
