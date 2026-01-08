@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: YuanPu_CV_202501.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: YuanPu_CV_202601.pdf # you can also use external links here
+description: Last updated - January, 2026
 toc:
   sidebar: left
 ---
