@@ -2,15 +2,15 @@
   "basics": {
     "name": "Yuan Pu",
     "email": "yuan.pu@duke.edu",
-    "url": "https://yuan-pu.github.io"
+    "homepage": "https://yuan-pu.github.io"
   },
   "interests": [
     {
       "name": "AI/ML for health",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Clinical Time Series",
-        "Multimodal"
+        "Multimodal",
+        "Clinical Time Series"
       ]
     },
     {
