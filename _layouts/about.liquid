@@ -17,20 +17,29 @@ layout: default
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+        {% assign profile_image_max = site.max_width | minus: 30 | times: 0.3 %}
+        {% capture profile_sizes %}(min-width: {{ site.max_width }}) {{ profile_image_max }}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+        {% if page.profile.image_circular %}
+          {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+        {% else %}
+          {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+        {% endif %}
+        {% if page.profile.image_light or page.profile.image_dark %}
+          {% if page.profile.image_light %}
+            {% assign light_image_path = page.profile.image_light | prepend: 'assets/img/' %}
+            <div class="only-light">
+              {% include figure.liquid loading="eager" path=light_image_path class=profile_image_class sizes=profile_sizes alt=page.profile.image_light cache_bust=true %}
+            </div>
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
+          {% if page.profile.image_dark %}
+            {% assign dark_image_path = page.profile.image_dark | prepend: 'assets/img/' %}
+            <div class="only-dark">
+              {% include figure.liquid loading="eager" path=dark_image_path class=profile_image_class sizes=profile_sizes alt=page.profile.image_dark cache_bust=true %}
+            </div>
+          {% endif %}
+        {% elsif page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=profile_sizes alt=page.profile.image cache_bust=true %}
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>

@@ -7,14 +7,28 @@ layout: page
       {% for profile in page.profiles %}
         <hr>
         <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          {% assign profile_image_max = site.max_width | minus: 30 | times: 0.3 %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ profile_image_max }}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+          {% if profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          {% endif %}
+          {% if profile.image_light or profile.image_dark %}
+            {% if profile.image_light %}
+              {% assign light_image_path = profile.image_light | prepend: 'assets/img/' %}
+              <div class="only-light">
+                {% include figure.liquid loading="eager" path=light_image_path class=profile_image_class sizes=sizes alt=profile.image_light %}
+              </div>
             {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {% if profile.image_dark %}
+              {% assign dark_image_path = profile.image_dark | prepend: 'assets/img/' %}
+              <div class="only-dark">
+                {% include figure.liquid loading="eager" path=dark_image_path class=profile_image_class sizes=sizes alt=profile.image_dark %}
+              </div>
+            {% endif %}
+          {% elsif profile.image %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
             {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
           {% endif %}
           {% if profile.more_info %}
