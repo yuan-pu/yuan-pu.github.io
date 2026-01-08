@@ -52,6 +52,8 @@
       {% capture entry_primary_link %}https://doi.org/{{ entry.doi }}{% endcapture %}
     {% elsif entry.arxiv %}
       {% capture entry_primary_link %}https://arxiv.org/abs/{{ entry.arxiv }}{% endcapture %}
+    {% elsif entry.url and entry.url contains '://' %}
+      {% capture entry_primary_link %}{{ entry.url }}{% endcapture %}
     {% elsif entry.html and entry.html contains '://' %}
       {% capture entry_primary_link %}{{ entry.html }}{% endcapture %}
     {% elsif entry.html %}
