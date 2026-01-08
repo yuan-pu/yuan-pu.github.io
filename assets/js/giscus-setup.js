@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "yuan-pu/yuan-pu_alt",
+    "data-repo": "yuan-pu/yuan-pu.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
