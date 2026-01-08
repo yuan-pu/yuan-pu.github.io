@@ -47,22 +47,6 @@
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
-    {% assign entry_primary_link = '' %}
-    {% if entry.doi %}
-      {% capture entry_primary_link %}https://doi.org/{{ entry.doi }}{% endcapture %}
-    {% elsif entry.arxiv %}
-      {% capture entry_primary_link %}https://arxiv.org/abs/{{ entry.arxiv }}{% endcapture %}
-    {% elsif entry.url and entry.url contains '://' %}
-      {% capture entry_primary_link %}{{ entry.url }}{% endcapture %}
-    {% elsif entry.html and entry.html contains '://' %}
-      {% capture entry_primary_link %}{{ entry.html }}{% endcapture %}
-    {% elsif entry.html %}
-      {% capture entry_primary_link %}{{ entry.html | prepend: '/assets/html/' | relative_url }}{% endcapture %}
-    {% elsif entry.pdf and entry.pdf contains '://' %}
-      {% capture entry_primary_link %}{{ entry.pdf }}{% endcapture %}
-    {% elsif entry.pdf %}
-      {% capture entry_primary_link %}{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}{% endcapture %}
-    {% endif %}
     <!-- Title -->
     <div class="title">
       <strong>
@@ -223,6 +207,9 @@
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+      {% endif %}
+      {% if entry.url %}
+        <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
