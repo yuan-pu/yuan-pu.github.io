@@ -65,10 +65,10 @@
       "url": "https://dl.acm.org/doi/full/10.1145/3613904.3642024"
     },
     {
-      "name": "Counting Clues: A Lightweight Probabilistic Baseline Can Match an LLM",
-      "publisher": "ML4H 2025 (Findings)",
-      "releaseDate": "2025-12",
-      "url": "https://arxiv.org/abs/2512.12868"
+      "name": "MedRedFlag: Investigating how LLMs Redirect Misconceptions in Real-World Health Communication",
+      "publisher": "preprint",
+      "releaseDate": "2026-01",
+      "url": "https://arxiv.org/abs/2601.09853"
     }
   ]
 }
