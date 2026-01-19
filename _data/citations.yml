@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-01-16'
+  last_updated: '2026-01-19'
 papers:
   MIBf-swAAAAJ:9yKSN-GCB0IC:
     citations: 85
     title: Human-algorithmic interaction using a large language model-augmented artificial intelligence clinical decision support system
     year: '2024'
   MIBf-swAAAAJ:IjCSPb-OGe4C:
-    citations: 24
+    citations: 25
     title: Trajectory Flow Matching with Applications to Clinical Time Series Modeling
     year: '2024'
   MIBf-swAAAAJ:LkGwnXOMwfcC:
@@ -21,6 +21,10 @@ papers:
     citations: 3
     title: 'Recent Advances, Applications and Open Challenges in Machine Learning for Health: Reflections from Research Roundtables at ML4H 2024 Symposium'
     year: '2025'
+  MIBf-swAAAAJ:UebtZRa9Y70C:
+    citations: 0
+    title: 'MedRedFlag: Investigating how LLMs Redirect Misconceptions in Real-World Health Communication'
+    year: '2026'
   MIBf-swAAAAJ:Y0pCki6q_DkC:
     citations: 0
     title: 'Dual Antiplatelet Therapy Management During Acute Gastrointestinal Bleeding After Percutaneous Coronary Intervention: A Real-World Nationwide Analysis'
