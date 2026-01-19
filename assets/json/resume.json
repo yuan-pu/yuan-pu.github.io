@@ -54,7 +54,7 @@
   "publications": [
     {
       "name": "Trajectory Flow Matching with Applications to Clinical Time Series Modeling",
-      "publisher": "NeurIPS 2024",
+      "publisher": "NeurIPS 2024 (spotlight)",
       "releaseDate": "2024-12",
       "url": "https://dl.acm.org/doi/abs/10.5555/3737916.3741320"
     },
