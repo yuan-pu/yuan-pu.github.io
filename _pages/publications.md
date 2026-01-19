@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-Please check my [Google Scholar](https://scholar.google.com/citations?user=MIBf-swAAAAJ&hl=en) for the latest list.
+Please check my [Google Scholar](https://scholar.google.com/citations?user=MIBf-swAAAAJ&hl=en) for the latest list. * indicates equal contribution.
 
 <!-- _pages/publications.md -->
 
