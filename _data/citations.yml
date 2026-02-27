@@ -1,25 +1,25 @@
 metadata:
-  last_updated: '2026-02-06'
+  last_updated: '2026-02-27'
 papers:
   MIBf-swAAAAJ:9yKSN-GCB0IC:
-    citations: 86
+    citations: 95
     title: Human-algorithmic interaction using a large language model-augmented artificial intelligence clinical decision support system
     year: '2024'
   MIBf-swAAAAJ:IjCSPb-OGe4C:
-    citations: 29
+    citations: 41
     title: Trajectory Flow Matching with Applications to Clinical Time Series Modeling
     year: '2024'
   MIBf-swAAAAJ:LkGwnXOMwfcC:
     citations: 1
-    title: 'IMPACT OF ARTIFICIAL INTELLIGENCE SYSTEMS FOR UPPER GASTROINTESTINAL BLEEDING ON CLINICIAN TRUST AND LEARNING USING LARGE LANGUAGE MODELS: A RANDOMIZED PILOT SIMULATION STUDY'
+    title: 'Impact of artificial intelligence systems for upper gastrointestinal bleeding on clinician trust and learning using large language models: a randomized pilot simulation study'
     year: '2024'
   MIBf-swAAAAJ:Se3iqnhoufwC:
     citations: 0
     title: Ethylene Glycol Monomethyl Ether Altered Rat Sperm Small RNAs with Critical Developmental Roles
     year: '2025'
   MIBf-swAAAAJ:Tyk-4Ss8FVUC:
-    citations: 4
-    title: 'Recent Advances, Applications and Open Challenges in Machine Learning for Health: Reflections from Research Roundtables at ML4H 2024 Symposium'
+    citations: 6
+    title: 'Recent advances, applications and open challenges in machine learning for health: Reflections from research roundtables at ml4h 2024 symposium'
     year: '2025'
   MIBf-swAAAAJ:UebtZRa9Y70C:
     citations: 0
@@ -27,7 +27,7 @@ papers:
     year: '2026'
   MIBf-swAAAAJ:Y0pCki6q_DkC:
     citations: 0
-    title: 'Dual Antiplatelet Therapy Management During Acute Gastrointestinal Bleeding After Percutaneous Coronary Intervention: A Real-World Nationwide Analysis'
+    title: 'S955 Dual Antiplatelet Therapy Management During Acute Gastrointestinal Bleeding After Percutaneous Coronary Intervention: A Real-World Nationwide Analysis'
     year: '2024'
   MIBf-swAAAAJ:roLk4NBRz8UC:
     citations: 0
