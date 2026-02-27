@@ -400,6 +400,9 @@ ninja.data = [{
           section: "News",},{id: "news-it-was-great-to-present-my-co-first-paper-counting-clues-a-lightweight-probabilistic-baseline-can-match-an-llm-at-ml4h-︎",
           title: 'It was great to present my co-first paper Counting Clues: A Lightweight Probabilistic...',
           description: "",
+          section: "News",},{id: "news-excited-to-share-that-my-co-first-paper-medredflag-investigating-how-llms-redirect-misconceptions-in-real-world-health-communication-is-selected-for-poster-presentation-at-sail-2026-️",
+          title: 'Excited to share that my co-first paper MedRedFlag: Investigating how LLMs Redirect Misconceptions...',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -450,7 +453,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/YuanPu_CV_202601.pdf", "_blank");
+          window.open("/assets/pdf/YuanPu_CV_20260227.pdf", "_blank");
         },
       },{
         id: 'social-email',
