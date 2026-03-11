@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-03-06'
+  last_updated: '2026-03-11'
 papers:
   MIBf-swAAAAJ:9yKSN-GCB0IC:
-    citations: 97
+    citations: 99
     title: Human-algorithmic interaction using a large language model-augmented artificial intelligence clinical decision support system
     year: '2024'
   MIBf-swAAAAJ:IjCSPb-OGe4C:
-    citations: 43
+    citations: 45
     title: Trajectory Flow Matching with Applications to Clinical Time Series Modeling
     year: '2024'
   MIBf-swAAAAJ:LkGwnXOMwfcC:
