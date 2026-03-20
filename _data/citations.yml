@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-03-11'
+  last_updated: '2026-03-20'
 papers:
   MIBf-swAAAAJ:9yKSN-GCB0IC:
-    citations: 99
+    citations: 101
     title: Human-algorithmic interaction using a large language model-augmented artificial intelligence clinical decision support system
     year: '2024'
   MIBf-swAAAAJ:IjCSPb-OGe4C:
-    citations: 45
+    citations: 46
     title: Trajectory Flow Matching with Applications to Clinical Time Series Modeling
     year: '2024'
   MIBf-swAAAAJ:LkGwnXOMwfcC:
@@ -42,6 +42,6 @@ papers:
     title: Usability and adoption in a randomized trial of GutGPT a GenAI tool for gastrointestinal bleeding
     year: '2025'
   MIBf-swAAAAJ:zYLM7Y9cAGgC:
-    citations: 1
+    citations: 2
     title: Machine learning on multiple epigenetic features reveals H3K27Ac as a driver of gene expression prediction across patients with glioblastoma
     year: '2025'
