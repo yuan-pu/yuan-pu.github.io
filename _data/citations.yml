@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-03-20'
+  last_updated: '2026-03-30'
 papers:
   MIBf-swAAAAJ:9yKSN-GCB0IC:
-    citations: 101
+    citations: 100
     title: Human-algorithmic interaction using a large language model-augmented artificial intelligence clinical decision support system
     year: '2024'
   MIBf-swAAAAJ:IjCSPb-OGe4C:
@@ -13,22 +13,22 @@ papers:
     citations: 1
     title: 'Impact of artificial intelligence systems for upper gastrointestinal bleeding on clinician trust and learning using large language models: a randomized pilot simulation study'
     year: '2024'
+  MIBf-swAAAAJ:M3ejUd6NZC8C:
+    citations: 0
+    title: Antiplatelet Resumption Timing in Post-Percutaneous Coronary Intervention Gastrointestinal Bleeding
+    year: '2026'
   MIBf-swAAAAJ:Se3iqnhoufwC:
     citations: 0
     title: Ethylene Glycol Monomethyl Ether Altered Rat Sperm Small RNAs with Critical Developmental Roles
     year: '2025'
   MIBf-swAAAAJ:Tyk-4Ss8FVUC:
-    citations: 7
+    citations: 8
     title: 'Recent advances, applications and open challenges in machine learning for health: Reflections from research roundtables at ml4h 2024 symposium'
     year: '2025'
   MIBf-swAAAAJ:UebtZRa9Y70C:
     citations: 0
     title: 'MedRedFlag: Investigating how LLMs Redirect Misconceptions in Real-World Health Communication'
     year: '2026'
-  MIBf-swAAAAJ:Y0pCki6q_DkC:
-    citations: 0
-    title: 'S955 Dual Antiplatelet Therapy Management During Acute Gastrointestinal Bleeding After Percutaneous Coronary Intervention: A Real-World Nationwide Analysis'
-    year: '2024'
   MIBf-swAAAAJ:roLk4NBRz8UC:
     citations: 0
     title: 'Counting Clues: A Lightweight Probabilistic Baseline Can Match an LLM'
