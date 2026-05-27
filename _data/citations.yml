@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-04-24'
+  last_updated: '2026-05-27'
 papers:
   MIBf-swAAAAJ:9yKSN-GCB0IC:
-    citations: 114
+    citations: 121
     title: Human-algorithmic interaction using a large language model-augmented artificial intelligence clinical decision support system
     year: '2024'
   MIBf-swAAAAJ:IjCSPb-OGe4C:
-    citations: 49
+    citations: 52
     title: Trajectory Flow Matching with Applications to Clinical Time Series Modeling
     year: '2024'
   MIBf-swAAAAJ:LkGwnXOMwfcC:
@@ -26,7 +26,7 @@ papers:
     title: 'Recent advances, applications and open challenges in machine learning for health: Reflections from research roundtables at ml4h 2024 symposium'
     year: '2025'
   MIBf-swAAAAJ:UebtZRa9Y70C:
-    citations: 0
+    citations: 2
     title: 'MedRedFlag: Investigating how LLMs Redirect Misconceptions in Real-World Health Communication'
     year: '2026'
   MIBf-swAAAAJ:roLk4NBRz8UC:
@@ -42,6 +42,6 @@ papers:
     title: Usability and adoption in a randomized trial of GutGPT a GenAI tool for gastrointestinal bleeding
     year: '2025'
   MIBf-swAAAAJ:zYLM7Y9cAGgC:
-    citations: 3
+    citations: 4
     title: Machine learning on multiple epigenetic features reveals H3K27Ac as a driver of gene expression prediction across patients with glioblastoma
     year: '2025'
