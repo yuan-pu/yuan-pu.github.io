@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-10'
+  last_updated: '2026-07-24'
 papers:
   MIBf-swAAAAJ:9yKSN-GCB0IC:
-    citations: 133
+    citations: 135
     title: Human-algorithmic interaction using a large language model-augmented artificial intelligence clinical decision support system
     year: '2024'
   MIBf-swAAAAJ:IjCSPb-OGe4C:
-    citations: 62
+    citations: 63
     title: Trajectory Flow Matching with Applications to Clinical Time Series Modeling
     year: '2024'
   MIBf-swAAAAJ:LkGwnXOMwfcC:
@@ -22,7 +22,7 @@ papers:
     title: Ethylene Glycol Monomethyl Ether Altered Rat Sperm Small RNAs with Critical Developmental Roles
     year: '2025'
   MIBf-swAAAAJ:Tyk-4Ss8FVUC:
-    citations: 10
+    citations: 11
     title: 'Recent advances, applications and open challenges in machine learning for health: Reflections from research roundtables at ml4h 2024 symposium'
     year: '2025'
   MIBf-swAAAAJ:UebtZRa9Y70C:
