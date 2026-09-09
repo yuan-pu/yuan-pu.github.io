@@ -35,4 +35,4 @@ I'm Yuan Pu (浦媛), a second year Computer Science Ph.D. student at Duke Unive
 
 Previously, I worked as a Postgraduate Associate at Yale School of Medicine under the mentorship of Dr. [Dennis Shung](https://scholar.google.com/citations?user=N-LePdMAAAAJ&hl=en). I graduated magna cum laude from Brown University in 2023 with a B.S. in Computational Biology, where I completed my honors thesis under the guidance of Dr. [Ritambhara Singh](https://ritambharasingh.com/).
 
-I am looking for research internship opportunities for Summer 2027, and would be happy to connect!
+I am looking for internship opportunities for Summer 2027, and would be happy to connect!
