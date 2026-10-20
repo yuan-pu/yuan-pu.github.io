@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Last updated - August, 2026",
+          description: "Last updated - October, 2026",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -402,6 +402,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-excited-to-share-that-my-co-first-paper-medredflag-investigating-how-llms-redirect-misconceptions-in-real-world-health-communication-is-selected-for-poster-presentation-at-acl-2026-findings-and-sail-2026-️",
           title: 'Excited to share that my co-first paper MedRedFlag: Investigating how LLMs Redirect Misconceptions...',
+          description: "",
+          section: "News",},{id: "news-happy-to-share-that-my-co-first-paper-counting-clues-a-lightweight-probabilistic-baseline-can-match-an-llm-has-been-accepted-to-the-main-conference-of-aacl-ijcnlp-2026",
+          title: 'Happy to share that my co-first paper Counting Clues: A Lightweight Probabilistic Baseline...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
