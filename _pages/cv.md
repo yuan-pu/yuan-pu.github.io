@@ -6,6 +6,4 @@ nav: true
 nav_order: 5
 cv_pdf: YuanPu_CV_20261003.pdf # you can also use external links here
 description: Last updated - October, 2026
-toc:
-  sidebar: left
 ---

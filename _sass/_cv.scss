@@ -6,103 +6,18 @@ div.container-link-button {
   margin-right: 0.5rem;
 }
 
-.cv {
-  .cv-section {
-    margin-top: 2rem;
-  }
+.cv .card-title {
+  font-size: 1.2rem; /* keep CV section headers compact */
+}
 
-  .cv-section-title {
-    margin: 0 0 1rem;
-    padding-bottom: 0.6rem;
-    border-bottom: 1px solid var(--global-divider-color);
-    font-size: 1.2rem;
-    font-weight: 400;
-  }
+.cv > .card {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 
-  .cv-entry-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .cv-entry {
-    display: grid;
-    grid-template-columns: 8.5rem minmax(0, 1fr);
-    column-gap: 1.25rem;
-    padding: 0.65rem 0;
-
-    & + .cv-entry {
-      margin-top: 0.75rem;
-    }
-  }
-
-  .cv-entry-date {
-    padding-top: 0.15rem;
-    color: var(--global-text-color-light);
-    font-size: 0.8rem;
-    font-variant-numeric: tabular-nums;
-  }
-
-  .cv-entry-location {
-    display: block;
-    margin-top: 0.3rem;
-    color: inherit;
-    font-size: 0.75rem;
-  }
-
-  .cv-entry-title {
-    margin: 0 0 0.3rem;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5;
-  }
-
-  .cv-entry-subtitle {
-    margin: 0 0 0.3rem;
-    font-size: 0.95rem;
-  }
-
-  .cv-entry-summary {
-    margin: 0;
-    font-size: 0.9rem;
-    line-height: 1.6;
-  }
-
-  .cv-entry-items {
-    margin: 0.5rem 0 0;
-    padding-left: 1.2rem;
-    font-size: 0.9rem;
-  }
-
-  .cv-publication .cv-entry-title {
-    font-weight: 400;
-  }
-
-  .cv-publication .cv-entry-subtitle {
-    color: var(--global-theme-color);
-    font-size: 0.85rem;
-  }
-
-  .list-group-item {
-    padding: 0.75rem 0;
-    border: 0;
-    background: transparent;
-  }
-
-  .list-group {
-    margin-bottom: 0;
-  }
-
-  @media (max-width: 767px) {
-    .cv-entry {
-      grid-template-columns: minmax(0, 1fr);
-      row-gap: 0.35rem;
-    }
-
-    .cv-entry-location {
-      display: inline;
-      margin-left: 0.5rem;
-    }
+  & ~ .card {
+    border-top: 1px solid var(--global-divider-color);
   }
 }
 
