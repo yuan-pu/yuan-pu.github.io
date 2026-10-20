@@ -12,6 +12,10 @@
   url: https://aclanthology.org/events/acl-2026/#2026findings-acl
   color: "#2f6f9f"
 
+"AACL-IJCNLP":
+  url: https://2026.aaclnet.org/
+  color: "#2f6f9f"
+
 "SAIL":
   url: https://sail.health/
   color: "#2f6f9f"

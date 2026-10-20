@@ -53,6 +53,12 @@
   ],
   "publications": [
     {
+      "name": "Challenges of Auditing: Variability in Outputs of Large Language Models for Health",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2026-09",
+      "url": "https://arxiv.org/abs/2609.16590"
+    },
+    {
       "name": "MedRedFlag: Investigating how LLMs Redirect Misconceptions in Real-World Health Communication",
       "publisher": "ACL 2026 Findings, SAIL 2026",
       "releaseDate": "2026-07",
@@ -60,8 +66,9 @@
     },
     {
       "name": "Counting Clues: A Lightweight Probabilistic Baseline Can Match an LLM",
-      "publisher": "ML4H 2025 Findings",
-      "releaseDate": "2025-12",
+      "publisher": "AACL-IJCNLP 2026 (Main, accepted)",
+      "releaseDate": "2026",
+      "summary": "Also presented at ML4H 2025 Findings.",
       "url": "https://arxiv.org/abs/2512.12868"
     },
     {

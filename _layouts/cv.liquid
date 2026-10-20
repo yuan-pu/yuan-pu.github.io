@@ -16,6 +16,8 @@ layout: default
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
+            aria-label="Download CV (PDF)"
+            title="Download CV (PDF)"
           >
             <i class="fa-solid fa-file-pdf"></i>
           </a>
@@ -30,8 +32,8 @@ layout: default
       <div class="cv">
         {% for entry in site.data.cv %}
           <a class="anchor" id="{{ entry.title }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+          <section class="cv-section">
+            <h2 class="cv-section-title">{{ entry.title }}</h2>
             <div>
               {% if entry.type == 'list' %}
                 {% include cv/list.liquid %}
@@ -47,7 +49,7 @@ layout: default
                 {{ entry.contents }}
               {% endif %}
             </div>
-          </div>
+          </section>
         {% endfor %}
       </div>
     </article>
@@ -67,6 +69,8 @@ layout: default
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
+            aria-label="Download CV (PDF)"
+            title="Download CV (PDF)"
           >
             <i class="fa-solid fa-file-pdf"></i>
           </a>
@@ -87,14 +91,14 @@ layout: default
           {% endif %}
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">
+          <section class="cv-section">
+            <h2 class="cv-section-title">
               {% if data[0] == 'publications' %}
                 Selected Publications
               {% else %}
                 {{ data[0] | capitalize }}
               {% endif %}
-            </h3>
+            </h2>
             <div>
               {% case data[0] %}
                 {% when 'basics' %}
@@ -125,7 +129,7 @@ layout: default
 
               {% endcase %}
             </div>
-          </div>
+          </section>
         {% endfor %}
       </div>
     </article>
