@@ -31,9 +31,9 @@ latest_posts:
 
 Hi there!
 
-I'm Yuan Pu (浦媛), a second year Computer Science Ph.D. student at Duke University advised by Dr. [Monica Agrawal](https://www.monicaagrawal.com/home).
+I'm Yuan Pu (浦媛), a Computer Science Ph.D. student at Duke University advised by Dr. [Monica Agrawal](https://www.monicaagrawal.com/home).
 
-My research spans AI for healthcare, language model evaluation, and human-AI interaction. I'm particularly interested in how AI behavior and interaction design shape users' understanding and decision-making, and how these interactions can adapt across different users, tasks, and contexts.
+My research spans AI for healthcare, language model evaluation, and human-AI interaction. I'm particularly interested in **how AI behavior and interaction design shape users' understanding and decision-making**, and how these interactions can adapt across different users, tasks, and contexts.
 
 Previously, I worked as a Postgraduate Associate at Yale School of Medicine under the mentorship of Dr. [Dennis Shung](https://scholar.google.com/citations?user=N-LePdMAAAAJ&hl=en). I graduated magna cum laude from Brown University in 2023 with a B.S. in Computational Biology, where I completed my honors thesis under the guidance of Dr. [Ritambhara Singh](https://ritambharasingh.com/).
 
