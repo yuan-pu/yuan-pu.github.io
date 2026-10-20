@@ -24,10 +24,12 @@
     button.addEventListener("click", () => {
       theme = theme === "dark" ? "light" : "dark";
       saved = theme;
-      try { localStorage.setItem("alternative-theme", theme); } catch (_) {}
+      try {
+        localStorage.setItem("alternative-theme", theme);
+      } catch (_) {}
       update();
     });
-    preference.addEventListener("change", event => {
+    preference.addEventListener("change", (event) => {
       if (saved === "dark" || saved === "light") return;
       theme = event.matches ? "dark" : "light";
       update();

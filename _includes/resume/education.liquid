@@ -20,7 +20,10 @@
             {{ content.institution }}
           {% endif %}
         </h3>
-        <p class="cv-entry-subtitle">{{ content.studyType }}{% if content.area %}, {{ content.area }}{% endif %}</p>
+        <p class="cv-entry-subtitle">
+          {{ content.studyType -}}
+          {%- if content.area %}, {{ content.area }}{% endif %}
+        </p>
         {% if content.summary %}
           <p class="cv-entry-summary">{{ content.summary }}</p>
         {% endif %}

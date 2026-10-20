@@ -13,8 +13,12 @@
             {{ content.name }}
           {% endif %}
         </h3>
-        {% if content.publisher %}<p class="cv-entry-subtitle">{{ content.publisher }}</p>{% endif %}
-        {% if content.summary %}<p class="cv-entry-summary">{{ content.summary }}</p>{% endif %}
+        {% if content.publisher %}
+          <p class="cv-entry-subtitle">{{ content.publisher }}</p>
+        {% endif %}
+        {% if content.summary %}
+          <p class="cv-entry-summary">{{ content.summary }}</p>
+        {% endif %}
       </div>
     </li>
   {% endfor %}

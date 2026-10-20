@@ -8,18 +8,12 @@
     {
       "name": "AI/ML for health",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Multimodal",
-        "Clinical Time Series"
-      ]
+      "keywords": ["Multimodal", "Clinical Time Series"]
     },
     {
       "name": "Large Language Models",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Human-AI Interactions and Collaborations",
-        "Alignment"
-      ]
+      "keywords": ["Human-AI Interactions and Collaborations", "Alignment"]
     }
   ],
   "education": [
