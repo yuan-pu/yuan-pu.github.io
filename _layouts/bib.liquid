@@ -17,7 +17,7 @@
       {% if preview_available %}
         <div class="publication-preview">
           {% if entry.preview contains '://' %}
-            <img class="preview" src="{{ entry.preview }}" alt="{{ entry.title | escape }}" loading="lazy" decoding="async" data-zoomable>
+            <img class="preview" src="{{ entry.preview }}" alt="" loading="lazy" decoding="async">
           {% else %}
             {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
             {%
@@ -26,9 +26,8 @@
               path=entry_path
               sizes="200px"
               class="preview"
-              zoomable=true
               avoid_scaling=true
-              alt=entry.title
+              alt=""
             %}
           {% endif %}
         </div>

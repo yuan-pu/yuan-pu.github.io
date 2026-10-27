@@ -757,6 +757,10 @@ footer.sticky-bottom {
         align-items: center;
         justify-content: center;
 
+        @media (min-width: 576px) {
+          margin-top: 1.5rem;
+        }
+
         figure,
         picture {
           width: 100%;
@@ -774,6 +778,7 @@ footer.sticky-bottom {
           max-height: 100%;
           border-radius: 0;
           box-shadow: none;
+          cursor: default;
         }
       }
 
