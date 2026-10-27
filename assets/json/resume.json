@@ -54,13 +54,13 @@
     },
     {
       "name": "MedRedFlag: Investigating how LLMs Redirect Misconceptions in Real-World Health Communication",
-      "publisher": "ACL 2026 Findings, SAIL 2026",
+      "publisher": "ACL 2026 (Findings), SAIL 2026",
       "releaseDate": "2026-07",
       "url": "https://aclanthology.org/2026.findings-acl.1771/"
     },
     {
       "name": "Counting Clues: A Lightweight Probabilistic Baseline Can Match an LLM",
-      "publisher": "AACL-IJCNLP 2026 Main, ML4H 2025 Findings",
+      "publisher": "AACL-IJCNLP 2026, ML4H 2025 (Findings)",
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2512.12868"
     },
