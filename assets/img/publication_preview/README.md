@@ -25,7 +25,7 @@ the images.
 Keep the original image dimensions and aspect ratios. The website fits each image
 inside a shared 4:3 area without cropping or stretching. Previews are decorative
 and do not open or zoom when clicked. In the side-by-side layout, the image area
-starts 1.5rem below the top of its row. No image shadows or rounded corners are added.
+starts 0.75rem below the top of its row. No image shadows or rounded corners are added.
 
 For a future publication, add `preview = {your-filename.png}` to its entry in
 `_bibliography/papers.bib`, then save the corresponding image in this directory.
